@@ -1,12 +1,70 @@
-.scroll-container {
-  width: 300px;
-  height: 500px;
-  overflow: hidden;
-  position: relative;
-}
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Profile</title>
+    <meta name="description" content="ゆず（私）の紹介ページです！">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
 
-.scroll-container img {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
+  <body>
+    <header id="header" class="wrapper">
+      <h1 class="site-title"><a href="index.html"><img src="img/logo.png" alt="Profile"></a></h1>
+      <nav>
+        <ul>
+          <li><a href="#about">チャラい私</a></li>
+          <li><a href="#bicycle">かわいい私</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="mainvisual">
+        <img src="img/mainvisual.jpg" alt="テキストテキストテキスト">
+      </div>
+
+      <section id="about" class="wrapper">
+        <h2 class="section-title">About</h2>
+        <div class="content">
+          <img src="img/about.png" alt="テキストテキストテキスト">
+          <div class="text">
+            <h3 class="content-title">ゆず子</h3>
+            <p>
+              かわいいだけじゃだめですか？
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="bicycle" class="wrapper">
+        <h2 class="section-title">かわいい私</h2>
+        <ul>
+          <li>
+            <img src="img/bicycle1.jpg" alt="テキストテキストテキスト">
+            <h3 class="content-title">寝てるかわいい私</h3>
+            <p>この時は眠たかったです、、、、</p>
+          </li>
+          <li>
+            <img src="img/bicycle2.jpg" alt="テキストテキストテキスト">
+            <h3 class="content-title">散歩に行きたい私</h3>
+            <p>散歩に行きたくてたまりませんでした</p>
+          </li>
+          <li>
+            <img src="img/bicycle3.jpg" alt="テキストテキストテキスト">
+            <h3 class="content-title">寝てるかわいい私2</h3>
+            <p>この時も眠たかったです、、、、</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <p>&copy; 2020 Profile</p>
+    </footer>
+
+  </body>
+
+</html>
